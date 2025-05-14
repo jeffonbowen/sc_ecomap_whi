@@ -147,7 +147,7 @@ sum(eco_seow_revised$Area)
 # All deciles:
 eco_seow_revised %>% 
   group_by(BSEOW_LI) %>% 
-  summarize(Area_tot = sum(Area)/10000)
+  summarize(Area_tot = sum(Area))
 
 
 # First deciles:
